@@ -1,0 +1,14 @@
+{
+  "ext_name": {
+    "message": "Extension name"
+  },
+  "ext_short_name": {
+    "message": "Extension short description"
+  },
+  "ext_description": {
+    "message": "Extension long description"
+  },
+  "ext_author": {
+    "message": "Alexander Ein (@AlexanderEin)"
+  }
+}

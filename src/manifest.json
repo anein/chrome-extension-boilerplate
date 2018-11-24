@@ -1,0 +1,38 @@
+{
+  "name"            : "__MSG_ext_name__",
+  "short_name"      : "__MSG_ext_short_name__",
+  "version"         : "1.0.1",
+  "description"     : "__MSG_ext_description__",
+  "author"          : "__MSG_ext_author__",
+  "homepage_url"    : "https://my_url.com",
+  "manifest_version": 2,
+  "default_locale"  : "en",
+
+  "icons"           : {
+    "16": "assets/img/icon-16x16.png"
+  },
+
+  "background"      : {
+    "scripts": [
+      "js/background.js"
+    ]
+  },
+
+  "browser_action"  : {
+    "default_icon" : {
+      "16": "assets/img/icon-16x16.png"
+    },
+    "default_title": "__MSG_ext_name__",
+    "default_popup": "html/popup.html"
+  },
+
+  "options_ui"      : {
+    "page"       : "options.html",
+    "open_in_tab": false
+  },
+
+  "permissions"     : [
+    "storage",
+    "alarms"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module"                : "commonjs",
+    "target"                : "es5",
+    "noImplicitAny"         : false,
+    "sourceMap"             : true,
+    "rootDir"               : "src",
+    "outDir"                : "build/js",
+    "sourceRoot"            : "src",
+    "noEmitOnError"         : true,
+    "inlineSources"         : true,
+    "removeComments"        : true,
+    "emitDecoratorMetadata" : true,
+    "declaration"           : false,
+    "noLib"                 : false,
+    "experimentalDecorators": true,
+    "preserveConstEnums"    : true,
+    "baseUrl"               : ".",
+    "lib"                   : [
+      "es2017",
+      "dom",
+      "es2015.promise"
+    ],
+    "paths"                 : {
+      "@/*": [
+        "src/app/*"
+      ]
+    },
+    "typeRoots"             : [
+      "node_modules/@types"
+    ]
+  },
+  "exclude"        : [
+    "node_modules"
+  ],
+  "include"        : [
+    "src/app/**/*"
+  ]
+}

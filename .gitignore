@@ -1,0 +1,8 @@
+/node_modules/
+*ngfactory.ts
+*ngsummary.json
+*.log
+.idea
+dist
+build
+/coverage/
