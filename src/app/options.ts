@@ -1,6 +1,8 @@
 (() => {
   // Do something on init the options script .
-  function onInit() {}
+  function onInit() {
+    //
+  }
 
   // Call it!
   onInit();

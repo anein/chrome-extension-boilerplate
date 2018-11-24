@@ -6,7 +6,7 @@
    * Run your initial code here.
    */
   function onInit() {
-    console.log("Init");
+    // console.log("Init");
   }
 
   // Do something on install
@@ -18,7 +18,7 @@
 
   // Simple alarm call
   chrome.alarms.onAlarm.addListener((alarm) => {
-    console.log("Message from Chrome.Alarm!");
+    // console.log("Message from Chrome.Alarm!");
   });
 
   //
