@@ -1,6 +1,6 @@
 {
   "name"           : "chrome-extension-boilerplate",
-  "description"    : "A template project for Chome, Opera and FireFox extensions based on typescript and webpack",
+  "description"    : "A template project for Chrome, Opera and FireFox extensions based on typescript and webpack",
   "author"         : "Alexander Ein (@alexanderein)",
   "version"        : "1.0.0",
   "license"        : "MIT",
