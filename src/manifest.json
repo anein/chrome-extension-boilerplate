@@ -9,7 +9,9 @@
   "default_locale"  : "en",
 
   "icons"           : {
-    "16": "assets/img/icon-16x16.png"
+    "16" : "assets/img/icon-16x16.png",
+    "48" : "assets/img/icon-48x48.png",
+    "128": "assets/img/icon-128x128.png"
   },
 
   "background"      : {
@@ -20,7 +22,9 @@
 
   "browser_action"  : {
     "default_icon" : {
-      "16": "assets/img/icon-16x16.png"
+      "16" : "assets/img/icon-16x16.png",
+      "48" : "assets/img/icon-48x48.png",
+      "128": "assets/img/icon-128x128.png"
     },
     "default_title": "__MSG_ext_name__",
     "default_popup": "html/popup.html"
